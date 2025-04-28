@@ -1,0 +1,27 @@
+# Ignore les fichiers liés à Mac 
+.DS_Store
+
+# Ignore MAMP, XAMPP logs
+*.log
+
+# Ignore les fichiers sensibles
+php/.env
+.env
+
+# Ignore les bases de données locales
+*.sql
+
+# Ignore les dossiers de cache et temporaires
+cache/
+tmp/
+
+# Ignore les dépendances Composer
+vendor/
+
+# Ignore les fichiers IDE
+.vscode/
+.idea/
+
+# Ignore les fichiers de sauvegarde ou temporaires
+*~
+*.swp
